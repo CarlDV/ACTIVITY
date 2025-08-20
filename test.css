@@ -76,7 +76,7 @@ h3 {
 
 iframe {
     display: block;
-    width: 500px;
+    width: 400px;
     height: 300px;
     margin: 0 auto;
     background-color: white;
@@ -87,4 +87,5 @@ iframe {
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
+
 }
