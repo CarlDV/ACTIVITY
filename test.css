@@ -1,6 +1,5 @@
 body {
     background-color: #b3adad;
-    transition: transform 0.7s ease;
 
 }
 
@@ -82,4 +81,5 @@ iframe {
     padding-bottom: 5%;
     text-align: center;
 }
+
 
