@@ -1,0 +1,90 @@
+body {
+    background-color: #b3adad;
+}
+
+h1 {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+    margin: auto auto 15px auto;
+    max-width: 400px;
+    padding: 1%;
+}
+
+a {
+    color: rgb(248, 248, 248);
+}
+
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 3px;
+}
+
+.mon {
+    background-color: rgb(96, 133, 133);
+}
+
+.tue {
+    background-color: #a07b7b;
+}
+
+.wed {
+    background-color: #a07b7b;
+}
+
+.thurs {
+    background-color: #a07b7b;
+}
+
+.fri {
+    background-color: #a07b7b;
+}
+
+h2 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    margin: 5px auto 15px auto;
+    max-width: 400px;
+    padding: 0.5%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.forms {
+    background-color: rgba(0, 255, 255, 0.329);
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: 0 auto 20px auto;
+}
+
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.creds {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
