@@ -60,16 +60,6 @@ h3 {
     border-radius: 10px;
     max-width: fit-content;
     margin: 0 auto 20px auto;
-    transition: transform 0.7s ease-in-out;
-}
-
-.forms:hover {
-    transform: translateY(-5px) scale(2);
-    backdrop-filter: blur(10px);
-}
-
-iframe:hover {
-    transform: translateY(-5px) scale(2);
 }
 
 tr:hover {
@@ -85,7 +75,6 @@ iframe {
     margin: 0 auto;
     background-color: white;
     border-radius: 15px;
-    transition: transform 0.8s ease;
 }
 
 .creds {
@@ -93,3 +82,4 @@ iframe {
     padding-bottom: 5%;
     text-align: center;
 }
+
