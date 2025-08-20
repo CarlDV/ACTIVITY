@@ -1,5 +1,7 @@
 body {
     background-color: #b3adad;
+    transition: transform 0.7s ease;
+
 }
 
 h1 {
@@ -26,29 +28,15 @@ table {
     border-radius: 15px;
 }
 
-th, td {
+th, td, tr {
     border: 1px solid #ffffff;
     padding: 3px;
+    transition: transform 0.7s ease;
+
 }
 
 .mon {
     background-color: rgb(96, 133, 133);
-}
-
-.tue {
-    background-color: #a07b7b;
-}
-
-.wed {
-    background-color: #a07b7b;
-}
-
-.thurs {
-    background-color: #a07b7b;
-}
-
-.fri {
-    background-color: #a07b7b;
 }
 
 h2 {
@@ -72,6 +60,22 @@ h3 {
     border-radius: 10px;
     max-width: fit-content;
     margin: 0 auto 20px auto;
+    transition: transform 0.7s ease-in-out;
+}
+
+.forms:hover {
+    transform: translateY(-5px) scale(2);
+    backdrop-filter: blur(10px);
+}
+
+iframe:hover {
+    transform: translateY(-5px) scale(2);
+}
+
+tr:hover {
+    background-color: rgb(248, 248, 248);
+    color: black;
+    border-radius: 15px;
 }
 
 iframe {
@@ -81,11 +85,11 @@ iframe {
     margin: 0 auto;
     background-color: white;
     border-radius: 15px;
+    transition: transform 0.8s ease;
 }
 
 .creds {
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-
 }
